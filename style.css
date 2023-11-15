@@ -1,0 +1,800 @@
+ *
+  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+  }
+#home 
+{
+	width: 100%;
+	height: 120vh;
+	background-color: goldenrod;
+	padding-top: 100px;
+	
+}
+
+html
+  {
+  	scroll-behavior: smooth;
+  }
+
+
+nav 
+{
+	width: 100%;
+	/*padding: 10px;*/
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+
+}
+
+.header
+  {
+  	max-width: 1200px;
+  	width: 100%;
+  	/*padding: 10px;*/
+  	/*background-color: pink;*/
+  	margin: auto;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	/*flex-wrap: wrap;*/
+
+  	
+  }
+
+  .logo
+  {
+  	font-size: 32px;
+  	color: white;
+  }
+
+  .ulist
+  {
+  	display: flex;
+
+  }
+
+  .ulist li
+  {
+  	padding: 0px 22px;
+  }
+
+  .ulist li a
+  {
+  	color: white;
+  }
+
+  .both
+  {
+  	width: 240px;
+  	padding: 10px;
+  	/*background-color: coral;*/
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+
+  .both h3
+  {
+  	color: white;
+  	font-size: 15px;
+  	letter-spacing: 2px;
+ 
+  }
+
+  .both p 
+  {
+  	color: white;
+  	font-size: 12px;
+  	letter-spacing: 1px;
+  	word-spacing: 2px;
+  }
+  /*---------------------------*/
+  .center 
+  {
+    width: 100%;
+    padding: 10px;
+    /*background-color: green;*/
+    display: flex;
+    align-items: center;
+  }
+
+  .centerone
+  {
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px;
+    /*background-color: indianred;*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .twopart
+  {
+    width: 50%;
+    padding: 10px;
+    /*background-color: firebrick;*/
+    /*margin: 5px;*/
+  }
+
+  .twopart h2
+  {
+    color: white;
+    font-size: 5vw;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+    
+  }
+  .twopart p 
+  {
+    color: white;
+    font-size: 2vw;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+    
+  }
+
+  .button 
+{
+  width: 100%;
+  height: 65px;
+  /*background-color: cyan;*/
+  display: flex;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+.btn1 
+{
+  width: 150px;
+  height: 35.5px;
+  background-color: darkcyan;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  line-height:2.2;
+  margin-top: 10px;
+  border-radius: 5px;
+
+
+
+}
+
+.btn2 
+{
+  width: 150px;
+  height: 35.5px;
+  background-color: lightgray;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  line-height: 2.2;
+  border: 1px solid white;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+
+.twopart img 
+{
+  width: 300px;
+  height: 300px;
+  
+}
+/*----------------------------------*/
+
+#about 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 70px;
+    margin-top: 40px;
+}
+.aboutfirst 
+{
+    width: 100%;
+    max-width: 1200px;
+    /*padding: 10px;*/
+    /*background-color: gray;*/
+    margin: auto;
+}
+.aboutfirst h2 
+{
+    text-align: center;
+    font-size: 36px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.circle 
+{
+    width: 190px;
+    height: 5px;
+    background-color: red;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.aboutfirst p 
+{
+    text-align: center;
+    margin-top: 30px;
+    /*margin-bottom: 10px;*/
+}
+.aboutmain 
+{
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    /*background-color: firebrick;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+.aboutmin 
+{
+    width: calc(50% - 10px);
+    padding: 5px;
+    /*background-color: pink;*/
+
+}
+.aboutmin h2 
+{
+    font-size: 36px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.aboutmin p 
+{
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.btn3 
+{
+    width: 120px;
+    height: 50px;
+    background-color: goldenrod;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.aboutmin img 
+{
+    width: 100%;
+    height:380px;
+}
+
+
+/*---------------------------------------------------------------*/
+ #service 
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: goldenrod;
+        padding-top: 70px;
+    }
+    .tle 
+    {
+        width: 100%;
+        /*background-color: black;*/
+        max-width: 1200px;
+        padding: 10px;
+        margin: auto;
+
+    }
+    .tle h2 
+    {
+        color: white;
+        font-size: 32px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+    .tle p 
+    {
+        color: white;
+        font-size: 20px;
+        word-spacing: 2px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .servicemain 
+    {
+        width: 100%;
+        max-width: 1200px;
+        /*background-color: beige;*/
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .servicemin 
+    {
+        width: calc(33.3% - 10px);
+        padding: 10px;
+        /*background-color: lightgreen;*/
+        
+    }
+    .servicemin img 
+    {
+        width: 100%;
+        height: 350px;
+    }
+    /*--------------------------------------*/
+
+     
+     #portfolio
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    
+    }
+    .portmain 
+    {
+        width: 100%;
+        max-width: 1200px;
+        padding: 10px;
+        /*background-color: green;*/
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .portmin 
+    {
+        width: calc(33.3% - 10px);
+        padding: 10px;
+        /*background-color: pink;*/
+
+    }
+    .portmin img 
+    {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .name 
+    {
+        width: 100%;
+        padding: 10px;
+        /*background-color: black;*/
+    }
+    .name h2 
+    {
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        word-spacing: 2px;
+    }
+    .name p 
+    {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .cirl1 
+    {
+        width: 100%;
+        padding: 10px;
+        /*background-color: midnightblue;*/
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .mincr1
+    {
+     width: 40px;
+     height: 40px;
+     background-color: goldenrod; 
+     border-radius: 50%; 
+     margin: 5px;
+     line-height: 40px;
+     
+    }
+    .mincr1 i 
+    {
+        color: white;
+        
+        font-size: 22px;
+
+    }
+/*---------------------------------------*/
+#middle 
+    {
+        width: 100%;
+        height: 70vh;
+        background-image: url(full3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 80px;
+        opacity: 0.5;
+    }
+    .main 
+    {
+        width: 100%;
+        padding: 10px;
+        max-width: 1200px;
+        /*background-color: red;*/
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    .min 
+    {
+        width: calc(33.3% - 10px);
+        padding: 10px;
+        /*background-color: cyan;*/
+        text-align: center;
+        margin-top: 50px;
+    }
+    .min i 
+    {
+        color: white;
+        font-size: 60px;
+
+    }
+    .min h4,h3 
+    {
+        color: white;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    /*------------------------------------------------*/
+   #contact 
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    #contact .aboutfirst h2{margin-top:30px;}
+
+    .rec h2 
+    {
+        color: black;
+        font-size: 32px;
+        word-spacing: 2px;
+        text-align: center;
+        margin-top:10px;
+    }
+    .rec p 
+    {
+        color: black;
+        font-size: 20px;
+        word-spacing: 2px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contmain 
+    {
+        width: 100%;
+        max-width: 1200px;
+        padding: 10px;
+        /*background-color: goldenrod;*/
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: space-around;*/
+
+    }
+
+    .contmin 
+    {
+        width:30%;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),0 2px 10px rgba(0, 0, 0, 0.5 );
+        margin: 5px;
+
+    }
+    .contmin img 
+    {
+        width: 100%;
+        height: 250px;
+    }
+
+    .contmin h2 
+    {
+        color: black;
+        font-size: 22px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+    .contmin h4
+    {
+        color: cyan;
+        
+        line-height: 1.9;
+        font-size: 14px;
+    }
+    .contmin p 
+    {
+        color: black;
+    
+        line-height: 1.5;
+        margin-top: 3px;
+    }
+    .contmin h3 
+    {
+        color: cyan;
+        font-size: 18px;
+        margin-top: 3px;
+
+    }
+/*==========================================*/
+#footer 
+    {
+        width: 100%;
+        height: 70vh;
+        background-color:black ;
+    }
+    .ftr 
+    {
+        width: 100%;
+        max-width: 1200px;
+        /*background-color:beige;*/
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .box 
+    {
+        width: calc(25% - 10px);
+        padding: 10px;
+        /*background-color: pink;*/
+    }
+    .tx 
+{
+    color: lightgray;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.box ul
+{
+    margin-top: 15px;
+}
+.box ul li 
+{
+    font-size: 20px;
+    list-style: none;
+    line-height: 1.6;
+}
+.box ul li a 
+{
+    color: lightgray;
+}
+.box p 
+{
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.mark 
+{
+    width: 180px;
+    height: 30px;
+    background: red;
+    
+    margin-top: 15px;
+    display: flex;
+}
+.part1 
+{
+    width: 80%;
+    height: 100%;
+    background: goldenrod;
+}
+.part2
+{
+    width: 20%;
+    height: 100%;
+    background: darkcyan;
+    text-align: center;
+    line-height: 35px;
+    
+}
+.part2 i 
+{
+    color: white;
+    transform: rotate(92deg);
+    font-size: 19px;
+}
+.cirl 
+{
+    width: 100%;
+    padding: 10px;
+    /*background-color: green;*/
+    display: flex;
+    text-align: center;
+}
+.mincr 
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    margin-left: 0px;
+    line-height: 40px;
+}
+.mincr i 
+{
+    font-size: 20px;
+}
+
+
+    
+ /*--------------------------------------------------------*/
+
+
+
+@media(max-width: 768px)
+{
+  .header
+  {
+      flex-direction: column;
+
+
+    }
+    .centerone
+    {
+      flex-direction: column;
+    }
+
+
+  .ulist li
+  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .twopart img
+  {
+    width: 100%;
+    /*height: 100%;*/
+  }
+
+
+   #about 
+    {
+        height: 100%;
+    }
+    .aboutmain
+    {
+        flex-direction: column;
+    }
+        .aboutmin
+    {
+        width: 100%;
+    }
+    .aboutmin img 
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    #service
+    {
+        height: 100%;
+        
+    }
+    .servicemain
+    {
+        flex-direction: column;
+    } 
+    .servicemin
+    {
+        width: 75%;
+        margin: auto;
+        
+    }
+
+    #portfolio 
+    {
+        height: 100%;
+    }
+    
+    .portmain
+    {
+        flex-direction: column;
+    }
+    .portmin
+    {
+        width: 75%;
+        margin:auto ;
+    }
+    /*----------------------------------*/
+     #middle
+    {
+        height: 100%;
+    }
+    .main
+    {
+        flex-direction: column;
+    }
+    .min 
+    {
+        width: 100%;
+    }
+    /*----------------------------------*/
+     #contact
+    {
+        height: 100%;
+    }
+    .contmain
+    {
+        flex-direction: column;
+    }
+    .contmin 
+    {
+        width: 70%;
+        margin: 10px;
+        
+    }
+    #footer 
+    {
+        height: 100%;
+    }
+    .ftr 
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .box 
+    {
+        width: 100%;
+        margin-top: 5px;
+
+    }
+    .mark
+    {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .cirl
+    {
+        justify-content: center;
+
+    }
+    .minc
+    {
+        margin: 5px;
+    }
+
+
+
+}
